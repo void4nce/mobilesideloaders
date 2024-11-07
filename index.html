@@ -13,8 +13,9 @@
             margin: 0;
             padding: 0;
             display: flex;
-            justify-content: center;
-            align-items: flex-start;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
             height: 100vh;
             text-align: center;
         }
@@ -25,10 +26,32 @@
             font-weight: normal;  /* Regular weight */
             margin-top: 20px;  /* Space from the top */
         }
+
+        /* Button Style */
+        .button {
+            font-family: serif;
+            font-size: 16px;
+            color: #222;
+            background-color: transparent;
+            border: 2px solid #222;
+            padding: 10px 20px;
+            text-decoration: none;
+            margin-top: 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        /* Button Hover Effect */
+        .button:hover {
+            background-color: #222;
+            color: white;
+        }
+
     </style>
 </head>
 <body>
     <!-- HTML content -->
     <h1>Sideloaders for iOS</h1>
+    <a href="https://khoindvn.io.vn/" class="button">E-Sign</a>
 </body>
 </html>
